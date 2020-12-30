@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --exec node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbkuhn/backend.git"
+  },
+  "author": "Livia Kuhn <liv.kuhn@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lbkuhn/backend/issues"
+  },
+  "homepage": "https://github.com/lbkuhn/backend#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.17"
+  }
+}
